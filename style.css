@@ -1,0 +1,65 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+nav {
+  display: flex;
+}
+
+nav img {
+  height: 60px;
+}
+
+#jumbotron {
+  background-image: url('bg.png');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  filter: contrast(0.7) sepia(0.1);
+}
+
+footer {
+  background: #a8937d;
+  color: #fff;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 32px;
+  text-align: center;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a i {
+  font-size: 2em;
+  margin: 0 8px;
+}
+
+@media screen and (max-width: 800px) {
+  #jumbotron {
+    background-size: 150%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #jumbotron {
+    background-size: 200%;
+  }
+}
+
